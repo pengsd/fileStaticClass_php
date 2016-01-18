@@ -31,7 +31,7 @@ class FileStatic
 	
 	/**
 	 * 获取静态文件
-	 * $type： sceneryDetail-景区详情页 groupDetail-团购详情页
+	 * $type：缓存文件夹名
 	 */
 	public function getStaticFile($type,$id){
 		$requestURL = $this->getFilePath($type,$id);
